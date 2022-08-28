@@ -1,0 +1,56 @@
+﻿<UserControl x:Class="ModernDesign.MVVM.View.DashBoardView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ModernDesign.MVVM.View"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800"
+             Background="#22202f">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Border Background="White"
+                CornerRadius="20"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center">
+            <TextBox Text="Hello"
+                     Foreground="White"
+                     FontSize="18"
+                     VerticalContentAlignment="Center"
+                     HorizontalAlignment="Center">
+                
+            </TextBox>
+        </Border>
+        
+        <Border Background="#002233"
+                CornerRadius="20">
+
+        </Border>
+        <Border Grid.Column="1" 
+                Background="#001a33"
+                CornerRadius="20">
+            
+        </Border>
+        <Border Grid.Row="1" 
+                Background="#1A0033"
+                CornerRadius="20">
+
+        </Border>
+        <Border Grid.Column="1"
+                Grid.Row="1"
+                Background="#330066"
+                CornerRadius="20">
+
+        </Border>
+
+    </Grid>
+    
+</UserControl>
