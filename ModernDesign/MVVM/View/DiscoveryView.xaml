@@ -10,16 +10,20 @@
 
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="250"/>
+            <ColumnDefinition Width="225"/>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
         <Border CornerRadius="25"
-                Background="White"
+                Background="DarkGray"
                 Margin="5">
+            <TreeView>
+                <TreeViewItem Header="TreeViewItem"/>
+
+            </TreeView>
         </Border>
         <Border Grid.Column="1"
                 Background="White"
-                CornerRadius="25"
+                CornerRadius="0"
                 Margin="5">
         </Border>
 

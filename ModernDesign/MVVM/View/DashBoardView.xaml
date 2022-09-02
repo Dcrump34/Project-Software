@@ -12,8 +12,16 @@
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
             <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition/>
+            <RowDefinition/>
             <RowDefinition/>
             <RowDefinition/>
         </Grid.RowDefinitions>
@@ -29,26 +37,40 @@
                 
             </TextBox>
         </Border>
-        
-        <Border Background="#002233"
-                CornerRadius="20">
-
+        <Border Grid.Row="0" Grid.ColumnSpan="6" Background="Gray" CornerRadius="15" BorderThickness="2" BorderBrush="DarkGray"/>
+        <Border Grid.Row="0" Grid.Column="0">
+            <TextBlock Foreground="white" Text="Project" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="22"/>
         </Border>
-        <Border Grid.Column="1" 
-                Background="#001a33"
-                CornerRadius="20">
-            
+        <Border Grid.Row="0" Grid.Column="1">
+            <TextBlock Foreground="white" Text="Updates" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="22"/>
         </Border>
-        <Border Grid.Row="1" 
-                Background="#1A0033"
-                CornerRadius="20">
-
+        <Border Grid.Row="0" Grid.Column="2">
+            <TextBlock Foreground="white" Text="Items" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="22"/>
         </Border>
-        <Border Grid.Column="1"
-                Grid.Row="1"
-                Background="#330066"
-                CornerRadius="20">
-
+        <Border Grid.Row="0" Grid.Column="3">
+            <TextBlock Foreground="white" Text="Users" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="22"/>
+        </Border>
+        <Border Grid.Row="0" Grid.Column="4">
+            <TextBlock Foreground="white" Text="Budget" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="22"/>
+        </Border>
+        <Border Grid.Row="0" Grid.Column="5">
+            <TextBlock Foreground="white" Text="Timeline" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="22"/>
+        </Border>
+        <Border Grid.Row="2" Grid.RowSpan="5" Grid.ColumnSpan="6">
+            <DataGrid Name="Dashboard">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Width="*"/>
+                    <DataGridTextColumn Width="*"/>
+                    <DataGridTextColumn Width="*"/>
+                    <DataGridTextColumn Width="*"/>
+                    <DataGridTextColumn Width="*"/>
+                    <DataGridTextColumn Width="*"/>
+                </DataGrid.Columns>
+                
+            </DataGrid>
+        </Border>
+        <Border Grid.Row="1" Grid.Column="0"  Background="Gray" CornerRadius="15" BorderThickness="2" BorderBrush="DarkGray" Margin="10 10 10 10">
+            <Button Content="Add New Project" Margin="3"/>
         </Border>
 
     </Grid>
