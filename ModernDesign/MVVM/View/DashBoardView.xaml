@@ -6,7 +6,7 @@
              xmlns:local="clr-namespace:ModernDesign.MVVM.View"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800"
-             Background="#22202f">
+             Background="Transparent">
 
     <Grid>
         <Grid.ColumnDefinitions>
@@ -37,7 +37,7 @@
                 
             </TextBox>
         </Border>
-        <Border Grid.Row="0" Grid.ColumnSpan="6" Background="Gray" CornerRadius="15" BorderThickness="2" BorderBrush="DarkGray"/>
+        <Border Grid.Row="0" Grid.ColumnSpan="6" Background="#616161" CornerRadius="15" BorderThickness="2" BorderBrush="#424242"/>
         <Border Grid.Row="0" Grid.Column="0">
             <TextBlock Foreground="white" Text="Project" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="22"/>
         </Border>

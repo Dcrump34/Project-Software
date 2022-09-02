@@ -15,8 +15,8 @@
     <Window.DataContext>
         <viewModel:MainViewModel/>
     </Window.DataContext>
-    
-    <Border Background="#272537" CornerRadius="20">
+
+    <Border Background="#212121" CornerRadius="20">
 
         <Grid>
             <Grid.ColumnDefinitions>
@@ -73,7 +73,9 @@
                 
                 
             </StackPanel>
-
+            <Border Grid.Row="0" Grid.Column="1" >
+                <Ellipse VerticalAlignment="Center" HorizontalAlignment="Right" Height="50" Width="50" Fill="#95a5a6" Margin="5"/>
+            </Border>
             <TextBox Width="250"
                      Height="40"
                      VerticalAlignment="Center"

@@ -6,7 +6,7 @@
              xmlns:local="clr-namespace:ModernDesign.MVVM.View"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800"
-             Background="#6619FF">
+             Background="Transparent">
 
     <Grid>
         <Grid.ColumnDefinitions>

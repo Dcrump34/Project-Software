@@ -17,7 +17,7 @@
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition Height="30"/>
+            <RowDefinition Height="50"/>
             <RowDefinition Height="50"/>
             <RowDefinition/>
             <RowDefinition/>
@@ -36,24 +36,24 @@
 
             </TextBox>
         </Border>
-        <Border Grid.Row="0" Grid.ColumnSpan="6" Background="Gray" CornerRadius="15" BorderThickness="2" BorderBrush="DarkGray"/>
+        <Border Grid.Row="0" Grid.ColumnSpan="6" Background="#616161" CornerRadius="15" BorderThickness="2" BorderBrush="#424242"/>
         <Border Grid.Row="0" Grid.Column="0">
-            <TextBlock Foreground="white" Text="Part Number" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20"/>
+            <TextBlock Foreground="white" Text="Part Number" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="18" />
         </Border>
         <Border Grid.Row="0" Grid.Column="1">
-            <TextBlock Foreground="white" Text="Quantity" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20"/>
+            <TextBlock Foreground="white" Text="Quantity" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="18"/>
         </Border>
         <Border Grid.Row="0" Grid.Column="2">
-            <TextBlock Foreground="white" Text="Location" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20"/>
+            <TextBlock Foreground="white" Text="Location" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="18"/>
         </Border>
         <Border Grid.Row="0" Grid.Column="3">
-            <TextBlock Foreground="white" Text="Last Used" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20"/>
+            <TextBlock Foreground="white" Text="Last Used" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="18"/>
         </Border>
         <Border Grid.Row="0" Grid.Column="4">
-            <TextBlock Foreground="white" Text="Last Cost" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20"/>
+            <TextBlock Foreground="white" Text="Last Cost" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="18"/>
         </Border>
         <Border Grid.Row="0" Grid.Column="5">
-            <TextBlock Foreground="white" Text="Lead Time" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20"/>
+            <TextBlock Foreground="white" Text="Lead Time" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="18"/>
         </Border>
         <Border Grid.Row="2" Grid.RowSpan="5" Grid.ColumnSpan="6">
             <DataGrid Name="Dashboard">
