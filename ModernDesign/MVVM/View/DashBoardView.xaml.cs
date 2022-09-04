@@ -24,5 +24,7 @@ namespace ModernDesign.MVVM.View
         {
             InitializeComponent();
         }
+
+        
     }
 }

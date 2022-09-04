@@ -24,53 +24,32 @@
             <RowDefinition/>
             <RowDefinition/>
         </Grid.RowDefinitions>
-        <Border Background="White"
-                CornerRadius="20"
-                HorizontalAlignment="Center"
-                VerticalAlignment="Center">
-            <TextBox Text="Hello"
-                     Foreground="White"
-                     FontSize="18"
-                     VerticalContentAlignment="Center"
-                     HorizontalAlignment="Center">
 
-            </TextBox>
-        </Border>
-        <Border Grid.Row="0" Grid.ColumnSpan="6" Background="#616161" CornerRadius="15" BorderThickness="2" BorderBrush="#424242"/>
-        <Border Grid.Row="0" Grid.Column="0">
-            <TextBlock Foreground="white" Text="Part Number" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="18" />
-        </Border>
-        <Border Grid.Row="0" Grid.Column="1">
-            <TextBlock Foreground="white" Text="Quantity" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="18"/>
-        </Border>
-        <Border Grid.Row="0" Grid.Column="2">
-            <TextBlock Foreground="white" Text="Location" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="18"/>
-        </Border>
-        <Border Grid.Row="0" Grid.Column="3">
-            <TextBlock Foreground="white" Text="Last Used" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="18"/>
-        </Border>
-        <Border Grid.Row="0" Grid.Column="4">
-            <TextBlock Foreground="white" Text="Last Cost" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="18"/>
-        </Border>
-        <Border Grid.Row="0" Grid.Column="5">
-            <TextBlock Foreground="white" Text="Lead Time" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="18"/>
-        </Border>
-        <Border Grid.Row="2" Grid.RowSpan="5" Grid.ColumnSpan="6">
-            <DataGrid Name="Dashboard">
+
+        <Border Grid.Row="1" Grid.RowSpan="5" Grid.ColumnSpan="6">
+            <DataGrid Name="Dashboard" 
+                      Background="#616161"
+                      VerticalContentAlignment="Center"
+                      HorizontalContentAlignment="Center">
+                
                 <DataGrid.Columns>
-                    <DataGridTextColumn Width="*"/>
-                    <DataGridTextColumn Width="*"/>
-                    <DataGridTextColumn Width="*"/>
-                    <DataGridTextColumn Width="*"/>
-                    <DataGridTextColumn Width="*"/>
-                    <DataGridTextColumn Width="*"/>
+                    <DataGridTextColumn Width="*" Header="Part Number"/>
+                    <DataGridTextColumn Width="*" Header="Quantity"/>
+                    <DataGridTextColumn Width="*" Header="Location"/>
+                    <DataGridTextColumn Width="*" Header="Last Used"/>
+                    <DataGridTextColumn Width="*" Header="Last Cost"/>
+                    <DataGridTextColumn Width="*" Header="Lead Time"/>
                 </DataGrid.Columns>
+
+
 
             </DataGrid>
         </Border>
-        <Border Grid.Row="1" Grid.Column="0"  Background="Gray" CornerRadius="15" BorderThickness="2" BorderBrush="DarkGray" Margin="10 10 10 10">
+        <Border Grid.Row="0" Grid.Column="0"  Background="Gray" CornerRadius="15" BorderThickness="2" BorderBrush="DarkGray" Margin="10 10 10 10">
             <Button Content="Add New Part" Margin="3"/>
         </Border>
 
     </Grid>
+    
+        
 </UserControl>

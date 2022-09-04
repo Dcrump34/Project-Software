@@ -25,51 +25,26 @@
             <RowDefinition/>
             <RowDefinition/>
         </Grid.RowDefinitions>
-        <Border Background="White"
-                CornerRadius="20"
-                HorizontalAlignment="Center"
-                VerticalAlignment="Center">
-            <TextBox Text="Hello"
-                     Foreground="White"
-                     FontSize="18"
-                     VerticalContentAlignment="Center"
-                     HorizontalAlignment="Center">
-                
-            </TextBox>
-        </Border>
-        <Border Grid.Row="0" Grid.ColumnSpan="6" Background="#616161" CornerRadius="15" BorderThickness="2" BorderBrush="#424242"/>
-        <Border Grid.Row="0" Grid.Column="0">
-            <TextBlock Foreground="white" Text="Project" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="22"/>
-        </Border>
-        <Border Grid.Row="0" Grid.Column="1">
-            <TextBlock Foreground="white" Text="Updates" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="22"/>
-        </Border>
-        <Border Grid.Row="0" Grid.Column="2">
-            <TextBlock Foreground="white" Text="Items" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="22"/>
-        </Border>
-        <Border Grid.Row="0" Grid.Column="3">
-            <TextBlock Foreground="white" Text="Users" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="22"/>
-        </Border>
-        <Border Grid.Row="0" Grid.Column="4">
-            <TextBlock Foreground="white" Text="Budget" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="22"/>
-        </Border>
-        <Border Grid.Row="0" Grid.Column="5">
-            <TextBlock Foreground="white" Text="Timeline" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="22"/>
-        </Border>
-        <Border Grid.Row="2" Grid.RowSpan="5" Grid.ColumnSpan="6">
-            <DataGrid Name="Dashboard">
+        
+        
+        <Border Grid.Row="1" Grid.RowSpan="5" Grid.ColumnSpan="6">
+            <DataGrid Name="Dashboard" 
+                      Background="#616161"
+                      >
                 <DataGrid.Columns>
-                    <DataGridTextColumn Width="*"/>
-                    <DataGridTextColumn Width="*"/>
-                    <DataGridTextColumn Width="*"/>
-                    <DataGridTextColumn Width="*"/>
-                    <DataGridTextColumn Width="*"/>
-                    <DataGridTextColumn Width="*"/>
+                    <DataGridTextColumn Width="*" Header="Project"/>
+                    <DataGridTextColumn Width="*" Header="Updates"/>
+                    <DataGridTextColumn Width="*" Header="Items"/>
+                    <DataGridTextColumn Width="*" Header="Users"/>
+                    <DataGridTextColumn Width="*" Header="Budget"/>
+                    <DataGridTextColumn Width="*" Header="Timeline"/>
                 </DataGrid.Columns>
                 
+                
+
             </DataGrid>
         </Border>
-        <Border Grid.Row="1" Grid.Column="0"  Background="Gray" CornerRadius="15" BorderThickness="2" BorderBrush="DarkGray" Margin="10 10 10 10">
+        <Border Grid.Row="0" Grid.Column="0"  Background="Gray" CornerRadius="15" BorderThickness="2" BorderBrush="DarkGray" Margin="10 10 10 10">
             <Button Content="Add New Project" Margin="3"/>
         </Border>
 
