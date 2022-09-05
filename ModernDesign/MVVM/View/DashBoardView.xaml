@@ -36,6 +36,8 @@
                         <Setter Property="BorderBrush" Value="White"/>
                         <Setter Property="BorderThickness" Value="1 1 1 1"/>
                         <Setter Property="FontSize" Value="18"/>
+                        
+                        <Setter Property="VerticalContentAlignment" Value="Center"/>
                     </Style>
                 </DataGrid.Resources>
                 <DataGrid.Columns>
