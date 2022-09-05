@@ -16,13 +16,14 @@
         <Border CornerRadius="25"
                 Background="DarkGray"
                 Margin="5">
-            <TreeView>
-                <TreeViewItem Header="TreeViewItem"/>
-
+            
+            <TreeView Background="#616161"
+                      Foreground="White">
+                <TreeViewItem Foreground="White" Header="TreeViewItem"/>
             </TreeView>
         </Border>
         <Border Grid.Column="1"
-                Background="White"
+                Background="#616161"
                 CornerRadius="0"
                 Margin="5">
         </Border>

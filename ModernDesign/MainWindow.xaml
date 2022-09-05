@@ -10,7 +10,9 @@
         WindowStyle="None"
         ResizeMode="CanResizeWithGrip"
         Background="Transparent"
-        AllowsTransparency="True">
+        AllowsTransparency="True"
+        Title="Project Management Software"
+        >
 
     <Window.DataContext>
         <viewModel:MainViewModel/>
@@ -74,7 +76,17 @@
                 
             </StackPanel>
             <Border Grid.Row="0" Grid.Column="1" >
-                <Ellipse VerticalAlignment="Center" HorizontalAlignment="Right" Height="50" Width="50" Fill="#95a5a6" Margin="5"/>
+                <Button Content="Add New Project" 
+                        HorizontalAlignment="Center" 
+                        Height="50" Width="100" 
+                        HorizontalContentAlignment="Center"/>
+            </Border>
+            <Border Grid.Row="0" Grid.Column="1" >
+                <Ellipse Height="50"
+                         Width="50"
+                         HorizontalAlignment="Right"
+                         Fill="DarkGray"
+                         Margin="0 0 20 0"/>
             </Border>
             <TextBox Width="250"
                      Height="40"
@@ -87,7 +99,7 @@
                             Grid.Column="1"
                             Margin="10"
                             Content="{Binding CurrentView}"/>
-
+            
 
         </Grid>
         

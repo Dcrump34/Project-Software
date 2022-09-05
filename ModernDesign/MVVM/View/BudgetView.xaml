@@ -23,28 +23,28 @@
 
         
         <Border Background="#424242" Margin="5" CornerRadius="3">
-            <TextBlock Text="% of Budget Used" FontSize="16" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0 0 40 0" Foreground="white"/>
+            <TextBlock Text="% of Budget Used" FontSize="24" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0 0 0 0" Foreground="white"/>
         </Border>
         <Border Background="#424242" Margin="5" CornerRadius="3" Grid.Column="1">
-            <TextBlock Text="Hours Used VS. Hours Budgeted" FontSize="16" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0 0 40 0" Foreground="white"/>
+            <TextBlock Text="Hours Used VS. Hours Budgeted" FontSize="24" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0 0 0 0" Foreground="white"/>
         </Border>
         <Border Background="#424242" Margin="5" CornerRadius="3" Grid.Row="1">
-            <TextBlock Text="% of Budget Used" FontSize="16" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0 0 40 0" Foreground="white"/>
+            <TextBlock Text="% of Budget Used" FontSize="24" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0 0 0 0" Foreground="white"/>
         </Border>
         <Border Background="#424242" Margin="5" CornerRadius="3" Grid.Row="1" Grid.Column="1">
-            <TextBlock Text="% of Budget Used" FontSize="16" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0 0 40 0" Foreground="white"/>
+            <TextBlock Text="% of Budget Used" FontSize="24" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0 0 0 0" Foreground="white"/>
         </Border>
         <Border Background="#424242" Margin="5" CornerRadius="3" Grid.Row="2" Grid.Column="1">
-            <TextBlock Text="% of Budget Used" FontSize="16" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0 0 40 0" Foreground="white"/>
+            <TextBlock Text="% of Budget Used" FontSize="24" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0 0 0 0" Foreground="white"/>
         </Border>
         <Border Background="#424242" Margin="5" CornerRadius="3" Grid.Row="2" Grid.Column="0">
-            <TextBlock Text="% of Budget Used" FontSize="16" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0 0 40 0" Foreground="white"/>
+            <TextBlock Text="% of Budget Used" FontSize="24" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0 0 0 0" Foreground="white"/>
         </Border>
         <Border Background="#424242" Margin="5" CornerRadius="3" Grid.Row="3" Grid.Column="0">
-            <TextBlock Text="% of Budget Used" FontSize="16" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0 0 40 0" Foreground="white"/>
+            <TextBlock Text="% of Budget Used" FontSize="24" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0 0 0 0" Foreground="white"/>
         </Border>
         <Border Background="#424242" Margin="5" CornerRadius="3" Grid.Row="3" Grid.Column="1">
-            <TextBlock Text="% of Budget Used" FontSize="16" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0 0 40 0" Foreground="white"/>
+            <TextBlock Text="% of Budget Used" FontSize="24" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0 0 0 0" Foreground="white"/>
         </Border>
         
         
