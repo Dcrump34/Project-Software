@@ -17,9 +17,22 @@
                 Background="DarkGray"
                 Margin="5">
             
-            <TreeView Background="#616161"
-                      Foreground="White">
-                <TreeViewItem Foreground="White" Header="TreeViewItem"/>
+            <TreeView Foreground="White" Style="{StaticResource TreeViewStyle}">
+                <TreeViewItem Header="TreeViewItem" Foreground="White"/>
+
+                <TreeView.ItemContainerStyle>
+                    <Style TargetType="TreeViewItem">
+                        <Style.Triggers>
+                            <Trigger Property="IsSelected" Value="True">
+                                <Setter Property="FontWeight" Value="Bold"/>
+                                <Setter Property="Background" Value="#616161"/>
+                            </Trigger>
+                            
+                        </Style.Triggers>
+                    </Style>
+                </TreeView.ItemContainerStyle>
+                
+                
             </TreeView>
         </Border>
         <Border Grid.Column="1"
@@ -27,7 +40,7 @@
                 CornerRadius="0"
                 Margin="5">
         </Border>
-
+        
     </Grid>
     
 </UserControl>
